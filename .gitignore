@@ -1,0 +1,27 @@
+### Editor ###
+## Vim & Emacs temp files:
+.*sw[op]
+*~
+
+### Mac OS X ###
+## Mac OS X metadata files:
+*.DS_Store
+
+### Directories ###
+## ignore analysis directory, results, etc.:
+## this simply prevents results from getting committed
+## and keeps the Git repos clean
+## put results in a more sustainable place, e.g. UCSF Box or Dryad (https://datadryad.org)
+analysis/
+
+### Results ###
+
+# ignore images
+*.png
+*.pdf
+*.svg
+*.jpg
+
+# ignore results
+*.Rdata
+*.txt
